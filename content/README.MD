@@ -7,3 +7,4 @@
 7. 在Jupyter Notebook上写出在单帧点云上画出3D检测框的程序，包含了如何从相机2坐标系转换到点云坐标系  
 8. 在RViz的点云视角发布3D检测框  
 9. 将track_id发布到camera和velodyne上，通过rviz显示  
+10. 在Jupyter Notebook上画出自己的轨迹  
