@@ -74,7 +74,7 @@ if __name__ == '__main__':
             corners_3d_velo = calib.project_rect_to_velo(corners_3d_cam2.T)
             corners_3d_velos += [corners_3d_velo]
             centers[track_id] = np.mean(corners_3d_velo, axis=0)[:2]
-        centers[1000] = np.array([0, 0]) # involve ego tracking
+        centers[-1] = np.array([0, 0]) # involve ego tracking, setting as -1 to avoid repetition
         
         # 2. read data
         image = read_camera(os.path.join(DATA_PATH, 'image_02/data/%010d.png'%frame))
