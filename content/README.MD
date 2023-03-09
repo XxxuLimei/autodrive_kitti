@@ -9,3 +9,4 @@
 9. 将track_id发布到camera和velodyne上，通过rviz显示  
 10. 在Jupyter Notebook上画出自己的轨迹  
 11. 将自己的轨迹发布到RViz上  
+12. 将自己的轨迹和相机视野内所有物体的轨迹发布到RViz上  
