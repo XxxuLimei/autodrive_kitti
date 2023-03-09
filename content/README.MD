@@ -10,3 +10,4 @@
 10. 在Jupyter Notebook上画出自己的轨迹  
 11. 将自己的轨迹发布到RViz上  
 12. 将自己的轨迹和相机视野内所有物体的轨迹发布到RViz上  
+13. 在Jupyter Notebook上画出两个框之间的最短距离  
